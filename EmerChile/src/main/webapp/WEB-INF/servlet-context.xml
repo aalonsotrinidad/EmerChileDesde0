@@ -5,11 +5,12 @@
 	
  	<mvc:annotation-driven/>
  	
- 	<mvc:view-controller path="/login" view-name="login"/>
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/views/" />
 		<property name="suffix" value=".jsp" />
 	</bean>
+ 	
+ 	<mvc:view-controller path="/login" view-name="login"/>
  	
 	<!-- Escanea el classpath buscando anotaciones (eg: @Service, @Repository etc) -->
 	<context:component-scan base-package="com.springsource.emergencias.*" />
