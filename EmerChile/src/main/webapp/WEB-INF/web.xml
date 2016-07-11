@@ -71,7 +71,7 @@
     </servlet>
     
     <servlet-mapping>
-        <servlet-name>emergencias</servlet-name>
+        <servlet-name>EmerChile</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
     
